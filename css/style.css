@@ -141,21 +141,25 @@ li a {
     cursor: pointer;
 }
 
-li ul a p {
+.description {
+    text-align: center;
+}
+
+li ul p {
     font-size: 10px;
     color: white;
 }
 
 li>ul {
     display: none;
-    width: auto;
-    min-width: 140px;
+    width: 200px;
+    /* min-width: 140px;
+    max-width: 190px; */
     height: auto;
     font-size: 13px;
-    float: center;
     padding: 5px;
     border-radius: 0px 13px 13px 13px;
-    text-align: center;
+    text-align: left;
 }
 
 li:hover>ul {
@@ -163,7 +167,7 @@ li:hover>ul {
     color: #ff9800;
     box-shadow: 0 0 8px 2px #03a9f4;
     display: grid;
-    margin-right: 18px;
+    margin-right: 10px;
     float: right;
     justify-content: center;
     align-content: center;

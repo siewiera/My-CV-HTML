@@ -141,15 +141,16 @@ li a {
     cursor: pointer;
 }
 
-li ul a p {
+li ul p {
     font-size: 10px;
     color: white;
 }
 
 li>ul {
     display: none;
-    width: auto;
+    /* width: auto; */
     min-width: 140px;
+    max-width: 200px;
     height: auto;
     font-size: 13px;
     float: center;
@@ -163,7 +164,7 @@ li:hover>ul {
     color: #ff9800;
     box-shadow: 0 0 8px 2px #03a9f4;
     display: grid;
-    margin-right: 18px;
+    margin-right: 7px;
     float: right;
     justify-content: center;
     align-content: center;
